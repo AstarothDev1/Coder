@@ -8,7 +8,10 @@ function App() {
       <header >
         <Navbar/>
         <ItemListContainer greeting={"Bienvenidos !!"}/>
-       
+        <div>
+          <h1>Encuentra Tu Producto !</h1>
+          <input placeholder="Buscar Producto"/>
+        </div>
       </header>
     </div>
   );
