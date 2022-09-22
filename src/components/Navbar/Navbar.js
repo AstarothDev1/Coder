@@ -1,22 +1,21 @@
-import "./Navbar.css"
-import CartWidget from "../CartWidget/CartWidget";
+import './Navbar.css'
+import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = () => {
-    return (
-        <nav className="Navbar" > 
-            <div className="title">
-                <h1>Edwin Ecommerce</h1>
-            </div>
-            <div>
-                <button className="Button">Niños</button>
-                <button className="Button">Niñas</button>
-                <button className="Button">Adultos</button>
-            </div>
-            <div>
-                <CartWidget/>
-            </div>
-        </nav>
-    )
+
+  return (
+      <nav className="NavBar" >
+          <div className='NavBar'>
+            <h3>Ecommerce</h3>
+          </div>
+          <div className="Buttons">
+              <button className="Option">Celular</button>
+              <button className="Option">Tablet</button>
+              <button className="Option">Notebook</button>
+          </div>
+          <CartWidget />
+      </nav>
+  )
 }
 
-export default Navbar;
+export default Navbar
