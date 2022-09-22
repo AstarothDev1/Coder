@@ -4,7 +4,10 @@
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background: wheat;
+    background-color: saddlebrown;
+  }
+  .Title{
+    color:azure
   }
 
   .Buttons {
@@ -15,7 +18,7 @@
 
   .Option {
 
-    background-color: blueviolet;
+    background-color: chocolate;
     border: none;
     color: white;
     padding: 15px 32px;
