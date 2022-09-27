@@ -9,9 +9,10 @@ const Navbar = () => {
             <h3>Ecommerce Edwin</h3>
           </div>
           <div className="Buttons">
-              <button className="Option">Celular</button>
-              <button className="Option">Tablet</button>
-              <button className="Option">Notebook</button>
+              <button className="Option">Home</button>
+              <button className="Option">About</button>
+              <button className="Option">Contact</button>
+              <button className="Option">Collections</button>
           </div>
           <CartWidget />
       </nav>
