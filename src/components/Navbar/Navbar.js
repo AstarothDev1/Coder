@@ -5,8 +5,8 @@ const Navbar = () => {
 
   return (
       <nav className="NavBar" >
-          <div className='Title'>
-            <h3>Ecommerce Edwin</h3>
+          <div >
+            <h3 className='Title'>Any Store</h3>
           </div>
           <div className="Buttons">
               <button className="Option">Home</button>
