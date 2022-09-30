@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import './App.css';
+import ItemDetailsContainer from './components/itemDetailsContainer/ItemDetailsContainer';
+import MercadoLibre from './components/MercadoLibre/MercadoLibre';
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <header >
         <Navbar/>
         <ItemListContainer greeting={"Bienvenidos !!"}/>
+        <ItemDetailsContainer/>
+        <MercadoLibre/>
       </header>
     </div>
   );
